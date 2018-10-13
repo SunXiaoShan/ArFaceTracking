@@ -12,6 +12,8 @@
 		8FC0706021723B21001E21A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FC0705E21723B21001E21A3 /* Main.storyboard */; };
 		8FC0706221723B24001E21A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FC0706121723B24001E21A3 /* Assets.xcassets */; };
 		8FC0706521723B24001E21A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FC0706321723B24001E21A3 /* LaunchScreen.storyboard */; };
+		8FC0707321723DB1001E21A3 /* EmojiNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC0707121723DB1001E21A3 /* EmojiNode.swift */; };
+		8FC0707421723DB1001E21A3 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC0707221723DB1001E21A3 /* StringExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		8FC0706121723B24001E21A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8FC0706421723B24001E21A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8FC0706621723B24001E21A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FC0707121723DB1001E21A3 /* EmojiNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiNode.swift; sourceTree = "<group>"; };
+		8FC0707221723DB1001E21A3 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 		8FC0705921723B21001E21A3 /* ARFaceTracking */ = {
 			isa = PBXGroup;
 			children = (
+				8FC0707021723DB1001E21A3 /* SuperUsefulCode */,
 				8FC0705A21723B21001E21A3 /* AppDelegate.swift */,
 				8FC0705C21723B21001E21A3 /* ViewController.swift */,
 				8FC0705E21723B21001E21A3 /* Main.storyboard */,
@@ -62,6 +67,15 @@
 				8FC0706621723B24001E21A3 /* Info.plist */,
 			);
 			path = ARFaceTracking;
+			sourceTree = "<group>";
+		};
+		8FC0707021723DB1001E21A3 /* SuperUsefulCode */ = {
+			isa = PBXGroup;
+			children = (
+				8FC0707121723DB1001E21A3 /* EmojiNode.swift */,
+				8FC0707221723DB1001E21A3 /* StringExtension.swift */,
+			);
+			path = SuperUsefulCode;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +149,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FC0707421723DB1001E21A3 /* StringExtension.swift in Sources */,
 				8FC0705D21723B21001E21A3 /* ViewController.swift in Sources */,
+				8FC0707321723DB1001E21A3 /* EmojiNode.swift in Sources */,
 				8FC0705B21723B21001E21A3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
